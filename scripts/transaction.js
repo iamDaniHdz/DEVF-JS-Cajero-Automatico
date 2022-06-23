@@ -182,7 +182,7 @@ function retirarMonto() {
 
                 dateTime.textContent = getDate()
 
-                optionSelected.textContent = "Ingresar Monto"
+                optionSelected.textContent = "Retirar Monto"
 
                 textoBefore.textContent = "Saldo Anterior: "
                 amountBefore.textContent = `$${saldoUser}`
