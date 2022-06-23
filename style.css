@@ -1,0 +1,54 @@
+body {
+    background: #5136ad;
+    background: linear-gradient(to right, #1c0e33, #5136ad);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.bg-login {
+    background-image: url(assets/atm.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-select {
+    background-image: url(assets/logo-atm.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.btn-primary {
+    background-color: #9272ff;
+    border-color: #9272ff;
+    --bs-btn-hover-bg: #5136ad;
+}
+
+.btn-primary:hover {
+    background-color: #5136ad;
+    border-color: #5136ad;
+}
+
+a {
+    text-decoration: none;
+    color: #5136ad;
+}
+
+.sh {
+    box-shadow: 0 0 20px 0 rgb(255 255 255 / 30%);
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    font-size: small;
+}
+
+footer a:hover {
+    color: #9272ff;
+}
