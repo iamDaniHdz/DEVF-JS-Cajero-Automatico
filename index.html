@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV.F ATM</title>
+
+    <link rel="shortcut icon" href="assets/logo-logo.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+<body class="d-flex flex-column">
+
+    <!-- Container -->
+    <div class="container bg-white w-75 rounded sh">
+        <div class="row align-items-stretch">
+
+            <!-- Select account -->
+            <div class="col px-5 rounded-start pb-2">
+
+                <h2 class="fw-light text-center p-2">Selecciona una cuenta</h2>
+
+                <!-- Card -->
+                <div class="card row d-flex flex-row p-2 mb-2 align-items-center">
+                    <div class="imagen-usuario pe-3 col-md-4 col-sm-12 d-flex justify-content-center">
+                        <img src="assets/mali.png" width="100" alt="">
+                    </div>
+                    <div class="d-flex flex-column d-flex flex-column col-md-8 col-sm-12">
+                        <h3 class="fw-light d-flex justify-content-center">Mali</h3>
+                        <button type="button" class="btn btn-primary" onclick="userLogin1()">Seleccionar</button>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="card row d-flex flex-row p-2 mb-2 align-items-center">
+                    <div class="imagen-usuario pe-3 col-md-4 col-sm-12 d-flex justify-content-center">
+                        <img src="assets/gera.png" width="100" alt="">
+                    </div>
+                    <div class="d-flex flex-column d-flex flex-column col-md-8 col-sm-12">
+                        <h3 class="fw-light d-flex justify-content-center">Gera</h3>
+                        <button type="button" class="btn btn-primary" onclick="userLogin2()">Seleccionar</button>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="card row d-flex flex-row p-2 mb-2 align-items-center">
+                    <div class="imagen-usuario pe-3 col-md-4 col-sm-12 d-flex justify-content-center">
+                        <img src="assets/maui.png" width="100" alt="">
+                    </div>
+                    <div class="d-flex flex-column d-flex flex-column col-md-8 col-sm-12">
+                        <h3 class="fw-light d-flex justify-content-center">Maui</h3>
+                        <button type="button" class="btn btn-primary" onclick="userLogin3()">Seleccionar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagen -->
+            <div class="col bg-select d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded-end"></div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="fixed-bottom mb-4">
+        <a href="https://github.com/iamDaniHdz" target="_blank">
+            <i class="bi bi-github"></i> iamDaniHdz | DEV.F ATM
+        </a>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/database.js"></script>
+    
+</body>
