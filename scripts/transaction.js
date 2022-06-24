@@ -22,7 +22,7 @@ saludoUser()
 function saludoUser() {
     cuentaLogin = JSON.parse(localStorage.getItem("cuentaLogin"));
     user = cuentaLogin.user;
-    textSaludo.innerHTML = "Dasboard de: " + user.toUpperCase();
+    textSaludo.innerHTML = "Dashboard de: " + user.toUpperCase();
 }
 
 // Función que guarda el nombre del usuario en uso
